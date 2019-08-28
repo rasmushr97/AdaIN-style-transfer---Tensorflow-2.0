@@ -8,7 +8,7 @@ It borrows elements of githubs posts: <br>
 - https://github.com/elleryqueenhomels/arbitrary_style_transfer <br>
 - https://github.com/eridgd/AdaIN-TF <br>
 
-# Architecture
+## Architecture
 The style transfer network follows an encoder-decoder architecure with Adaptive Instance Normalization in between the encoder and decoder.
 ![stn_overview](https://user-images.githubusercontent.com/13844740/33978899-d428bf2e-e0dc-11e7-9114-41b6fb8921a7.jpg)
 A normalized pretrained VGG19 model is used as the encoder for this network which weigths can be found here: <br>
@@ -23,3 +23,6 @@ The network is trained using the MS-COCO dataset the content images and the Wiki
 - Numpy
 - OpenCV
 - Tqdm
+
+## Results
+A style weight of 1e-1 was first used, as it is value used in the code for the original paper. I found these result to be less colorful than wanted, so I tried to experiment with a color loss, in order to train it to mimic the color of the style image better. This did work, however I found that I got better results just by increasing the style weight to 2.0. 
