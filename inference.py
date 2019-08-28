@@ -8,8 +8,8 @@ from adain import AdaIN
 
 ALPHA = 0.75
 MODEL_PATH = "saved/test.h5"
-CONTENT_PATH = "test_images\content\stata.jpg"
-STYLE_PATH = "test_images\style\cat.jpg"
+CONTENT_PATH = "images\content\stata.jpg"
+STYLE_PATH = "images\style\cat.jpg"
 
 def main():  
     # Load model
