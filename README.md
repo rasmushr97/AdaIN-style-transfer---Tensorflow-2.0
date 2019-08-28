@@ -25,4 +25,4 @@ The network is trained using the MS-COCO dataset the content images and the Wiki
 - Tqdm
 
 ## Results
-A style weight of 1e-1 was first used, as it is value used in the code for the original paper. I found these result to be less colorful than wanted, so I tried to experiment with a color loss, in order to train it to mimic the color of the style image better. This did work, however I found that I got better results just by increasing the style weight to 2.0. 
+A style weight of 1e-1 was initially used, as it is value used in the code for the original paper. I found these result to be less colorful than wanted, so I tried to experiment with a color loss, in order to train it to mimic the color of the style image better. This did work, however I found that I got better results just by increasing the style weight to 2.0. 
