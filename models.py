@@ -1,9 +1,7 @@
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.layers import Input, Dense, Conv2D, UpSampling2D, Reshape, MaxPooling2D, Lambda, Layer
-from tensorflow.keras.applications import VGG19
 from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.applications.densenet import DenseNet121
 from adain import AdaIN
 
 def build_vgg19(input_shape, weights_path):
