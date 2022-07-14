@@ -5,7 +5,9 @@
 An implementaion of the paper Huang et al. [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/pdf/1703.06868.pdf) Created in Tensorflow 2.0
 <br>
 
-It borrows elements of githubs posts: <br>
+<img width="336" alt="image" src="https://user-images.githubusercontent.com/6470685/178935663-7ac46360-ea91-4388-8b8d-7fd653531d41.png">
+
+The code borrows elements of githubs posts: <br>
 - https://github.com/elleryqueenhomels/arbitrary_style_transfer <br>
 - https://github.com/eridgd/AdaIN-TF <br>
 
@@ -25,5 +27,5 @@ The network is trained using the MS-COCO dataset the content images and the Wiki
 - OpenCV
 - Tqdm
 
-## Results
+## Settings
 A style weight of 1e-1 was initially used, as it is value used in the code for the original paper. I found these result to be less colorful than wanted, so I tried to experiment with a color loss, in order to train it to mimic the color of the style image better. This did work, however I found that I got better results just by increasing the style weight to 2.0. 
