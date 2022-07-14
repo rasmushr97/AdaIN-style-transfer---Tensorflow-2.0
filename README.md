@@ -18,6 +18,7 @@ The code borrows elements of githubs posts: <br>
 ## Architecture
 The style transfer network follows an encoder-decoder architecure with Adaptive Instance Normalization in between the encoder and decoder.
 ![stn_overview](https://user-images.githubusercontent.com/13844740/33978899-d428bf2e-e0dc-11e7-9114-41b6fb8921a7.jpg)
+<br>
 A normalized pretrained VGG19 model is used as the encoder for this network which weigths can be found here: <br>
 [Pre-trained VGG19 normalised network npz format](https://s3-us-west-2.amazonaws.com/wengaoye/vgg19_normalised.npz) (MD5 `c5c961738b134ffe206e0a552c728aea`)
 
