@@ -5,7 +5,7 @@
 An implementaion of the paper Huang et al. [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/pdf/1703.06868.pdf) Created in Tensorflow 2.0
 <br>
 
-<img width="512" alt="Screenshot at Jul 14 10-17-22" src="https://user-images.githubusercontent.com/6470685/178936241-399f8861-e903-4b1b-900f-9a7d931d045b.png">
+<img width="800" alt="Screenshot at Jul 14 10-17-22" src="https://user-images.githubusercontent.com/6470685/178936241-399f8861-e903-4b1b-900f-9a7d931d045b.png">
 
 
 The code borrows elements of githubs posts: <br>
