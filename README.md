@@ -2,9 +2,8 @@
 
 
 <br>
-An implementaion of the paper Huang et al. [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/pdf/1703.06868.pdf) 
+An implementaion of the paper Huang et al. [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/pdf/1703.06868.pdf) Created in Tensorflow 2.0
 <br>
-Created in Tensorflow 2.0
 
 It borrows elements of githubs posts: <br>
 - https://github.com/elleryqueenhomels/arbitrary_style_transfer <br>
